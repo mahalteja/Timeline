@@ -1,9 +1,10 @@
 .timeline-container{
     background: linear-gradient(90deg, #FEE5EB 0%, #E7E4ED 100%);
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     display: flex;
     align-items: flex-end;
+    min-height: 100vh;
 }
 .circle-icon{
     position: absolute;
@@ -24,5 +25,22 @@
     flex-direction: column;
     gap: 24px;
     margin-bottom: 8px;
+    width: 100%;
 }
 
+@media (max-width:1100px) {
+    .timeline-container{
+        padding: 24px 32px 24px 128px;
+        box-sizing: border-box;
+    }
+    .curve-img{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .timeline-container{
+        padding: 24px 24px 24px 64px;
+        box-sizing: border-box;
+    }
+}

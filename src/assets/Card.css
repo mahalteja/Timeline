@@ -52,10 +52,32 @@
   max-width: 800px;
 }
 
-@media (max-width:900px) {
-    
+@media (max-width:1300px) {
+    .card-container{
+      width: auto;
+      box-sizing: border-box;
+    }
+    .card-subtext{
+      text-wrap: nowrap;
+    }
+}
+
+@media (max-width:1100px) {
+    .card-container{
+      margin: 0 !important;
+    }
+    .circle{
+      left: -64px;
+    }
 }
 
 @media (max-width:600px) {
-    
+  .card-container{
+    flex-direction: column;
+  }
+  .circle{
+    left: -48px;
+    width: 24px;
+    height: 24px;
+  }
 }
