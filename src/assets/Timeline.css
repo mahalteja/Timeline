@@ -1,0 +1,28 @@
+.timeline-container{
+    background: linear-gradient(90deg, #FEE5EB 0%, #E7E4ED 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+.circle-icon{
+    position: absolute;
+    left: -550px;
+    top: -250px;
+    width: 800px;
+    height: 800px;
+
+}
+
+.curve-img{
+    height: 90vh;
+    width: auto;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 8px;
+}
+
